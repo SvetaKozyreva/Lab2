@@ -10,6 +10,7 @@ namespace Example
 
             //Example 1
 
+            Console.WriteLine("Example 1");
             Random o = new Random();
             List<int> chisla = new List<int>();
             for (int i = 0; i < 10; i++)
@@ -30,7 +31,7 @@ namespace Example
                     nmx = i;
                 }
             }
-            Console.WriteLine("\n{0} {1}", mx, nmx);
+            Console.WriteLine("\nExample 2: {0} {1}", mx, nmx);
 
             //Example 3
 
